@@ -136,6 +136,7 @@ var click_jugada = function (e) {
 };
 
 var inicio_juego = function () {
+
     var rol = aleatorio(2);
     if (rol === 1) {
         rol_gamer1.innerHTML = "X";
@@ -150,6 +151,7 @@ var inicio_juego = function () {
     }
     asignar_turno(true);
     inicio_tiempo();
+
 };
 
 var fin_juego = function () {
@@ -180,7 +182,9 @@ var fin_juego = function () {
         z.classList.remove("jugada_perdedora");
         z.innerHTML = "";
     }
-
+    //se agrega esta sentencia para limpiar los campos de los jugadores al terminar cada partida
+    document.getElementById("jugador1").value = "";
+    document.getElementById("jugador2").value = "";
 
 };
 

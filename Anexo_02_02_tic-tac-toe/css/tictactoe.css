@@ -12,7 +12,8 @@ h1, h2, h3, td, #timer{
     width: 750px;
     text-align: center;
     margin: auto;
-    border: 5px solid #f80021;
+    /*se cambia el color del borde*/
+    border: 5px solid #3B310A;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
 }
@@ -50,7 +51,7 @@ input[type=text]{
     position: relative;
     margin: 10px 0;
     border-radius: 4px;
-    border:1px dashed #000;
+    border:1px dashed #1b1a23;
     font-size: 30px;
     width: 100%;
     text-align: center;
@@ -69,7 +70,8 @@ button{
     text-align: center;
     margin: 10px 0;
     color: #211C09;
-    background: rgba(0, 88, 202, 0.5);
+    /*se cambia el color del fondo de los botones*/
+    background: rgb(200, 164, 19);
     cursor: pointer;
 }
 
@@ -152,7 +154,8 @@ ganadora y perdedora */
 #tabla_dinamica{
     position: relative;
     background-color: #fff;
-    border: 5px solid #f80021;
+    /*se modifica color del border de la ventana modal*/
+    border: 5px solid #312003;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
     margin: 10% auto;
@@ -184,13 +187,15 @@ table{
     width: 100%;
 }
 table,tr,th,td{
-    border: 1px solid #be7d63;
+    /*se modifica el color de las cuadriculas en la tabla de resultados*/
+    border: 1px solid #9a6e109e;
     padding: 5px;
     border-collapse: collapse;
     text-align: center;
 }
 thead{
-    background-color: #770107;
+    /*se modifica el color de fondo de la parte superior de la tabla de resultados*/
+    background-color: #794913c3;
 }
 thead th{
     color:#fff !important;
@@ -206,7 +211,7 @@ tbody tr:nth-child(even){
 }
 
 .error{
-    border:2px solid red !important;
+    border:2px solid rgb(179, 151, 10) !important;
 }
 
 .ganador{
